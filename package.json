@@ -1,0 +1,23 @@
+{
+  "name": "lambda-wintercg",
+  "version": "1.0.0",
+  "description": "Simple wrapper for allowing wintercg frameworks with lambda api gateway events",
+  "main": "lib/index.ts",
+  "author": "TatoExp",
+  "license": "MIT",
+  "scripts": {
+    "pretty": "bun prettier . --write"
+  },
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.146"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^22.10.1",
+    "elysia": "^1.1.25",
+    "prettier": "3.4.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
